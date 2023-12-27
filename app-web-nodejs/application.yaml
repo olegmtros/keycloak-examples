@@ -21,7 +21,7 @@ sessionStore:
     password: 'the-password-must-be-at-least-32-characters-long'
     isSecure: false
 auth:
-  serverUrl: 'http://localhost:8080/auth'
+  serverUrl: 'https://keycloak.loc:3000/auth'
   realm: 'examples'
   clientId: 'app-web-nodejs'
   clientSecret: '1dsf4534rhfsfs345tdgfgj'
